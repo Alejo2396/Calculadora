@@ -3,22 +3,22 @@ const app = express();
 const port = 8080;
 
 app.get('/suma', (req, res) => {
-    const suma = 5 + 6;
+    const suma = 23 + 96;
     res.send("El Resultado de la suma es: " + suma);
 });
 
 app.get('/resta', (req, res) => {
-    const resta = 5 - 6;
+    const resta = 234 - 567;
     res.send("El Resultado de la resta es: " + resta);
 });
 
 app.get('/multiplicacion', (req, res) => {
-    const multiplicacion = 5 * 6;
+    const multiplicacion = 45667 * 6;
     res.send("El Resultado de la multiplicacion es: " + multiplicacion);
 });
 
 app.get('/division', (req, res) => {
-    const division = 5 / 6;
+    const division = 1996 / 6;
     res.send("El Resultado de la division es: " + division);
 });
 
